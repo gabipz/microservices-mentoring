@@ -6,7 +6,8 @@ tasks = []
 
 @app.route('/')
 def home():
-    return "Hello, World!"
+    return "Hello, Flask in Docker!"
+
 
 @app.route('/tasks', methods=['GET'])
 def get_tasks():
@@ -39,6 +40,7 @@ def update_task(task_id):
     task = next((t for t in tasks if t['id'] == task_id), None)
     if task is None:
         return jsonify({'error': 'Task not found'}), 404
+
     task_data = request.get_json()
     task['title'] = task_data.get('title', task['title'])
     task['completed'] = task_data.get('completed', task['completed'])
@@ -51,5 +53,6 @@ def delete_task(task_id):
     tasks = [t for t in tasks if t['id'] != task_id]
     return '', 204
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
