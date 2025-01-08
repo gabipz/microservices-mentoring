@@ -19,7 +19,7 @@ Vídeos rápido para contextualizar:
 
 Leitura:
 - [Desenvolvimento de Microserviços Python: 13 Melhores Práticas](https://www.planeks.net/microservices-development-best-practices/). Seleção das sessões para ler:
-	- Por que Python é ideal para [[Arquitetura de microsserviços|microsserviços]]
+	- Por que Python é ideal para Arquitetura de microsserviços|microsserviços
 	- Comunicação de serviço
 	- Conteinerização com Docker
 	- Fazer **Case Study**
