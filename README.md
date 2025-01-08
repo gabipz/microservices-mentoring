@@ -1,7 +1,7 @@
 # Mentoria - microsserviços com Flask e Docker
 
 ## Plano de estudos
-- [x] Arquitetura de microsserviços (FastAPI)
+- [x] Arquitetura de microsserviços (Flask)
 - [ ] Docker
 - [ ] Desafio
 - [ ] Apresentação
