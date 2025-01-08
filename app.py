@@ -6,7 +6,7 @@ tasks = []
 
 @app.route('/')
 def home():
-    return "Hello, world"
+    return "Hello, World!"
 
 @app.route('/tasks', methods=['GET'])
 def get_tasks():
