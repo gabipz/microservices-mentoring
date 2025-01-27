@@ -39,8 +39,7 @@ O serviço deve receber que a empresa receba (POST) e liste (GET) as propostas d
 {
   "id": 1,
   "customer_name": "Bruna",
-  "amount": 10000,
-  "description": "Financiamento de veículo"
+  "amount": 10000
 }
 ```
 
